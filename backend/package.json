@@ -1,0 +1,14 @@
+{
+  "name": "mgnrega-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "etl": "node etl.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "sqlite3": "^5.1.6"
+  }
+}
